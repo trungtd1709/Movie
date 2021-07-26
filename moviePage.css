@@ -1,0 +1,48 @@
+body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    /* The image used */
+    background: url("https://jooinn.com/images/nature-scene-97.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: rgba(7, 24, 34, 8) !important;
+  }
+
+  .photoDiv{
+    margin-top: 80px;
+    margin-left: 80px;
+    height: 400px;
+   
+  }
+
+  .photo{
+    
+    height: 100%;
+    width: 100%;
+  }
+
+  .cover{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    
+    
+    opacity: 0,1;
+
+  }
+  .text{
+    margin-top: 80px;
+    margin-left: 20px;
+    color: white;
+  }
